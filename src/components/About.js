@@ -30,7 +30,7 @@ const About = () => {
            whileInView={"show"}
            viewport={{once: false, amount: 0.3}}
           className='flex-1'>
-            <h2 className="h2 text-white">About me. </h2>
+            <h2 className="h2 text-gradient">About me. </h2>
             <h3 className='h3 mb-4'>
               I'm a Full-stack Developer with years of experience.
             </h3>
