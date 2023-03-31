@@ -32,7 +32,7 @@ const Banner = () => {
               2000
             ]}
               speed={50}
-              className='text-white'
+              className='text-gradient'
               wrapper='span'
               repeat={Infinity}
             />
