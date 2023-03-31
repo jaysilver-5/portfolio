@@ -35,7 +35,7 @@ const About = () => {
               I'm a Full-stack Developer with years of experience.
             </h3>
             <p className='mb-6'>
-            I'm passionate about using modern software engineering practices such as agile, test-driven development (TDD), continuous integration, and automated tests to refine my craft while staying current with industry trends.
+              As a full stack developer, I have expertise in both front-end and back-end development, working with a wide range of technologies and frameworks. My experience has taught me to collaborate effectively with teams, communicate effectively with clients, and stay up-to-date with industry trends. I am passionate about creating user-friendly and efficient web applications, and I am always eager to take on new challenges and learn new skills.
             </p>
             {/* stats */}
               <div className='flex gay-x-6 lg:gap-x-10 mb-12'>

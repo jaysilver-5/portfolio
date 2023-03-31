@@ -2,8 +2,10 @@ import React from 'react';
 
 import Image from '../assets/avatar.svg';
 
+import { Link } from 'react-scroll';
+
 import Profile from '../assets/profile.png'
-import { FaGithub, FaYoutube, FaDribbble, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaTwitter, FaDribbble, FaLinkedin } from 'react-icons/fa';
 //type animation
 import { TypeAnimation } from 'react-type-animation';
 
@@ -39,18 +41,22 @@ const Banner = () => {
             I am a full-stack developer and engineer with years of experience dedicated to delivering the best user experiences.
           </motion.p>
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.6}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'>Contact me</button>
+            <button className='btn btn-lg'>
+              <Link to='contact' activeClass='active' smooth={true} spy={true}>
+                Contact me
+              </Link>  
+            </button>
             <a href='#' className='text-gradient btn-link'>My portfolio</a>
           </motion.div>
           {/* socials */}
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-mas mx-auto lg:mx-0'>
-            <a href='#'>
-              <FaYoutube />
+            <a href='https://twitter.com/udojoshua3'>
+              <FaTwitter />
             </a>
-            <a href='#'>
+            <a href='https://github.com/jaysilver-5'>
               <FaGithub />
             </a>
-            <a href='#'>
+            <a href='https://linkedin.com/in/udojoshua3'>
               <FaLinkedin />
             </a>
           </motion.div>
