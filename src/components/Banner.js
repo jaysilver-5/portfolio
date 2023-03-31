@@ -46,7 +46,9 @@ const Banner = () => {
                 Contact me
               </Link>  
             </button>
-            <a href='#' className='text-gradient btn-link'>My portfolio</a>
+            <Link to='work' className='text-gradient btn-link' activeClass='active' smooth={true} spy={true}>
+                My portfolio
+             </Link>
           </motion.div>
           {/* socials */}
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='flex text-[20px] gap-x-6 max-w-mas mx-auto lg:mx-0'>
