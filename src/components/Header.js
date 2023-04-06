@@ -14,11 +14,11 @@ const Header = () => {
           <img src={Logo} alt='' />
         </a>
         {/* button */}
-        <button className='btn btn-sm'>
         <Link to='contact' activeClass='active' smooth={true} spy={true}>
-          Work with me
+          <button className='btn btn-sm'>
+            Work with me
+          </button>
         </Link>
-        </button>
         </div>
     </div>
   </header>
