@@ -43,11 +43,12 @@ const Banner = () => {
             I am a full-stack developer and engineer with years of experience dedicated to delivering the best user experiences.
           </motion.p>
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.6}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-               <button className='btn btn-lg'>  
-                <Link to='contact' activeClass='active' smooth={true} spy={true}>
-                  Contact me
-                </Link> 
-               </button> 
+            <Link to='contact' activeClass='active' smooth={true} spy={true}>
+              <button className='btn btn-lg'>  
+                Contact me
+              </button> 
+            </Link
+
                 <Link to='work' className='text-gradient btn-link' activeClass='active' smooth={true} spy={true}>
                   My portfolio
                 </Link>
