@@ -2,6 +2,8 @@ import React from 'react';
 
 import Image from '../assets/avatar.svg';
 
+import Contact from './Contact';
+import Work from './Work';
 import { Link } from 'react-scroll';
 
 import Profile from '../assets/profile.png'
