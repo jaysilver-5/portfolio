@@ -47,8 +47,7 @@ const Banner = () => {
               <button className='btn btn-lg'>  
                 Contact me
               </button> 
-            </Link
-
+            </Link>
                 <Link to='work' className='text-gradient btn-link' activeClass='active' smooth={true} spy={true}>
                   My portfolio
                 </Link>
