@@ -32,7 +32,7 @@ const About = () => {
           className='flex-1'>
             <h2 className="h2 text-gradient">About me. </h2>
             <h3 className='h3 mb-4'>
-              I'm a Full-stack Developer with years of experience.
+              I&apos;m a Full-stack Developer with years of experience.
             </h3>
             <p className='mb-6'>
               As a full stack developer, I have expertise in both front-end and back-end development, working with a wide range of technologies and frameworks. My experience has taught me to collaborate effectively with teams, communicate effectively with clients, and stay up-to-date with industry trends. I am passionate about creating user-friendly and efficient web applications, and I am always eager to take on new challenges and learn new skills.
