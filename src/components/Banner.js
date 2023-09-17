@@ -24,7 +24,6 @@ const Banner = () => {
   const navigateToExternalUrl = (url) => {
     window.location.href = url;
   };
-
   
   return (
   <section className='h-screen text-white p-12 flex justify-center items-center' id='home'>
