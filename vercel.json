@@ -1,15 +1,17 @@
 {
   "version": 2,
-  "framework": "nextjs",
   "builds": [
     {
-      "src": "next.config.js",
-      "use": "@vercel/next"
+      "src": "build",
+      "use": "@vercel/static"
     }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
   ],
   "installCommand": "npm install",
   "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
+  "devCommand": "npm run start",
   "outputDirectory": "build",
   "public": true
 }
