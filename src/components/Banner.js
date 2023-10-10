@@ -51,7 +51,7 @@ const Banner = () => {
             />
           </motion.div>
           <motion.p variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.7}} className='mb-8 lg:mx-0 max-w-lg mx-auto lg:max-0'>
-            I am a Senior Full-stack Engineer with years of experience dedicated to delivering the best user experiences.
+            I am a Senior Full-stack Engineer with years of experience dedicated to delivering the best user experiences. On my way to becoming the best Robotics Engineer ever😁 
           </motion.p>
           <motion.div variants={fadeIn('up', 0.3)} initial="hidden" whileInView={'show'} viewport={{once: false, amount:0.6}} className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <Link to='contact' activeClass='active' smooth={true} spy={true}>
